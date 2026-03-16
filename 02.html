@@ -17,6 +17,7 @@
     <!-- MDB PLUGINS -->
     <link rel="stylesheet" href="plugins/css/all.min.css" />
 
+
     <!-- 自訂義 -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Custom styles -->
@@ -29,6 +30,7 @@
             font-family: "Oswald", sans-serif;
             font-weight: 800;
         }
+
     </style>
 </head>
 
@@ -96,151 +98,182 @@
 
 
 
+<!-- Carousel wrapper -->
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-carousel-init>
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</header>
-<!--Main Navigation-->
-
-<!--Main layout-->
-<main class="my-5">
-    <div class="container">
-        <!--Section: Posts-->
-        <section>
-<h3 class="mb-6">活動資訊</h3>
-            <!-- Single article -->
-            <div class="row d-flex justify-content-center text-center mb-5">
-                <div class="col-md-10">
-                    <div class="
-                      bg-image
-                      hover-overlay
-                      shadow-1-strong
-                      mb-4
-                      rounded-5
-                      " data-mdb-ripple-init data-mdb-ripple-color="light">
-                        <img src="img/d01.jpg" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
-                    </div>
-                </div>
-<h5>瑞豐夜市馬年敬賀圖</h5>
-
-            </div>
-            <!-- Single article -->
-
-            <!-- Single article -->
-            <div class="row d-flex justify-content-center text-center mb-5">
-                <div class="col-md-10">
-                    <div class="
-                      bg-image
-                      hover-overlay
-                      shadow-1-strong
-                      mb-4
-                      rounded-5
-                      " data-mdb-ripple-init data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/slides/100.jpg" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <h5>This is a very long post title</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                        atque hic, officiis blanditiis accusantium veritatis ullam?
-                        Maiores atque autem velit officiis molestiae voluptates suscipit
-                        eligendi, vero expedita sequi, doloremque modi?
-                    </p>
-                    <a class="btn btn-primary btn-rounded" href="" role="button" data-mdb-ripple-init>Read more</a>
-                </div>
-            </div>
-            <!-- Single article -->
-
-            <!-- Single article -->
-            <div class="row d-flex justify-content-center text-center mb-5">
-                <div class="col-md-10">
-                    <div class="
-                      bg-image
-                      hover-overlay
-                      shadow-1-strong
-                      mb-4
-                      rounded-5
-                      " data-mdb-ripple-init data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/slides/101.jpg" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <h5>This is a very long post title</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                        atque hic, officiis blanditiis accusantium veritatis ullam?
-                        Maiores atque autem velit officiis molestiae voluptates suscipit
-                        eligendi, vero expedita sequi, doloremque modi?
-                    </p>
-                    <a class="btn btn-primary btn-rounded" href="" role="button" data-mdb-ripple-init>Read more</a>
-                </div>
-            </div>
-            <!-- Single article -->
-
-            <!-- Single article -->
-            <div class="row d-flex justify-content-center text-center mb-5">
-                <div class="col-md-10">
-                    <div class="
-                      bg-image
-                      hover-overlay
-                      shadow-1-strong
-                      mb-4
-                      rounded-5
-                      " data-mdb-ripple-init data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/slides/115.jpg" class="img-fluid" />
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <h5>This is a very long post title</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                        atque hic, officiis blanditiis accusantium veritatis ullam?
-                        Maiores atque autem velit officiis molestiae voluptates suscipit
-                        eligendi, vero expedita sequi, doloremque modi?
-                    </p>
-                    <a class="btn btn-primary btn-rounded" href="" role="button" data-mdb-ripple-init>Read more</a>
-                </div>
-            </div>
-            <!-- Single article -->
-        </section>
-        <!--Section: Posts-->
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <img src="img/d01.jpg" class="d-block w-100" alt="Sunset Over the City"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>瑞豐夜市馬年慶賀圖 </h3>
+        <p></p>
+      </div>
     </div>
-</main>
-<!--Main layout-->
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="img/d02.jpg" class="d-block w-100" alt="Canyon at Nigh"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h4>從2/12-2/22期間天天營業 </h4>
+        <p></p>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -330,4 +363,15 @@
     <!-- Copyright -->
 </footer>
 <!-- Footer -->
-</body>
+
+
+
+
+
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</html>
